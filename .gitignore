@@ -1,0 +1,10 @@
+# VS Code helyi beallitasok
+.vscode/
+
+# Naplofajlok
+*.log
+
+# Titkos konfiguracios fajlok
+.env
+.env.*
+!.env.example
