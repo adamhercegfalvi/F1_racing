@@ -1,13 +1,25 @@
+body {
+    margin: 0px;
+    background-color: #0b0d12;
+    color: #e8e8e8;
+    font-family: "Arial", Helvetica, sans-serif;
+}
+
 header {
     border-radius: 10px;
-    background-color: yellow;
+    background-color: #15171c;
+    color: #ffffff;
     padding: 10px;
     margin: 10px;
+    border-bottom: 3px solid #e10600;
 }
 
 header img {
     float: left;
-    margin: 20px 10px 0px 10px;
+    width: 200px;
+    height: auto;
+    margin: 10px 20px 10px 10px;
+    object-fit: contain;
 }
 
 div#wrapper {
@@ -15,21 +27,22 @@ div#wrapper {
 }
 
 aside {
-    display: table-cell;
-    vertical-align: top;
+    display: block;
 }
 
 nav {
-    margin: 0px 10px 0px 0px;
-    top: 0px;
+    margin: 0px 0px 10px 0px;
     border-radius: 10px;
-    background-color: #FF6600;
+    background-color: #20232b;
 }
 
 nav ul {
+    display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     margin: 0px;
-    padding: 15px 0px;
+    padding: 0px 15px;
+    gap: 5px;
 }
 
 nav ul li {
@@ -37,34 +50,48 @@ nav ul li {
 }
 
 nav ul li.active {
-    border-right: 5px solid blue;
+    border-right: none;
+    border-bottom: 3px solid #e10600;
 }
 
 nav ul a {
+    display: block;
+    padding: 15px 18px;
     text-decoration: none;
-    color: blue;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+nav ul a:hover {
+    background-color: #343943;
+    color: #ff4545;
 }
 
 div#content {
-    display: table-cell;
+    display: block;
+    box-sizing: border-box;
     width: 100%;
     border-radius: 10px;
-    background-color: #99FFCC;
-    padding: 15px;
+    background-color: #1c1f26;
+    padding: 25px;
 }
 
 div#content img{
     float: right;
     width: 20em;
+    max-width: 100%;
     height: auto;
-    margin: 0 0 15px 15px;
+    margin: 0 0 15px 20px;
     padding: 3px;
-    border: 3px solid blue;
+    border: 2px solid #e10600;
+    border-radius: 8px;
 }
 
 footer {
     border-radius: 10px;
     margin: 10px;
-    padding: 5px 20px;
-    background-color: #CC99FF;
+    padding: 15px 20px;
+    background-color: #15171c;
+    border-top: 2px solid #e10600;
 }

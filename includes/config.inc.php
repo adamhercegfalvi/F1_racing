@@ -1,18 +1,18 @@
 <?php
 $ablakcim = array(
-    'cim' => 'Mini honlap Kft.',
+    'cim' => 'F1 Racing Database',
 );
 
 $fejlec = array(
-    'kepforras' => 'logo.png',
-    'kepalt' => 'logo',
-	'cim' => 'Mini honlap',
-	'motto' => ''
+    'kepforras' => 'F1_logo.png',
+    'kepalt' => 'F1 Racing Database logo',
+	'cim' => 'F1 Racing Database',
+	'motto' => 'A Formula 1 világa egy helyen',
 );
 
 $lablec = array(
     'copyright' => 'Copyright '.date("Y").'.',
-    'ceg' => 'Mini honlap Kft.'
+    'ceg' => 'F1 Racing Database'
 );
 
 $oldalak = array(
