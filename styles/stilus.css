@@ -158,3 +158,45 @@ footer {
         transition: none;
     }
 }
+
+/* F1 űrlapok */
+
+.f1-form-card {
+    background-color: #24272e;
+    border: 1px solid #343943;
+    padding: 25px;
+    border-top: 3px solid #e10600;
+    border-radius: 10px;
+}
+
+.f1-form-card h2 {
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.f1-form-card .form-control {
+    background-color: #15171c;
+    border: 1px solid #454a55;
+    color: #ffffff;
+}
+
+.f1-form-card .form-control:focus {
+    background-color: #15171c;
+    border-color: #e10600;
+    color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(225, 6, 0, 0.15);
+}
+
+.f1-btn {
+    background-color: #e10600;
+    padding: 10px 25px;
+    font-weight: bold;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.f1-btn:hover {
+    background-color: #ff2525;
+    border-color: #ff2525;
+    transform: translateY(-2px);
+}
