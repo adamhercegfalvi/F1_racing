@@ -11,5 +11,8 @@
 		}
 	}
 	else $keres = $oldalak['/'];
+	if ($keres['fajl']=== 'pilotak') {
+		include('./logicals/pilotak.php');
+	}
 	include('./templates/index.tpl.php'); 
 ?>
