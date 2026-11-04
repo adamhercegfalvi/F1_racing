@@ -42,7 +42,7 @@
                 <h2>Hivatalos YouTube Videó</h2>
                 <p>Tekintse meg a Formula–1 legizgalmasabb pillanatait bemutató külső videót:</p>
                 <div class="ratio ratio-16x9 mt-3">
-                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/VJEaYWQsJ60" title="F1 Lando Norris Hungaroring Helmet Cam" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
