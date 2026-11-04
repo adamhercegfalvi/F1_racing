@@ -14,7 +14,8 @@
             <div class="h-100 p-5 bg-dark text-white rounded-3 border border-secondary shadow">
                 <h2>A Formula–1 világa</h2>
                 <p>Az oldalon áttekintheti a részletes statisztikákat, eredményeket és a pilóták adatait. Gyors és áttekinthető keresés a nagydíjak világában.</p>
-                <img src="./images/arc.jpg" class="img-fluid rounded shadow-sm mt-3" alt="F1 bemutatkozó kép">
+                <!-- EZ A RÉSZ MÓDOSULT: w-100 a teljes szélességhez, h-auto az arány megtartásához -->
+                <img src="./images/arc.jpg" class="w-100 h-auto rounded shadow-sm mt-3" alt="F1 bemutatkozó kép">
             </div>
         </div>
 
