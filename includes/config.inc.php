@@ -21,6 +21,7 @@ $oldalak = array(
 	'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'Kapcsolat', 'menun' => array(1,1)),
 	'cikkek' => array('fajl' => 'cikkek', 'szoveg' => 'Cikkek', 'menun' => array(1,1)),
     'tablazat' => array('fajl' => 'tablazat', 'szoveg' => 'Táblázat', 'menun' => array(1,1)),
+    'kepgaleria' => array('fajl' => 'kepgaleria', 'szoveg' => 'Képgaléria', 'menun' => array(1,1)),
     'pilotak' => array('fajl' => 'pilotak', 'szoveg' => 'Pilóták', 'menun' => array(1,1)),
     'pilota_uj' => array('fajl' => 'pilota_uj','szoveg' => 'Új pilóta','menun' => array(0,0)),
     'belepes' => array('fajl' => 'belepes', 'szoveg' => 'Belépés', 'menun' => array(1,0)),
