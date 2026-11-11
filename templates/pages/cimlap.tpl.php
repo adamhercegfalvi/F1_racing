@@ -1,25 +1,21 @@
 <div class="container py-4">
-    <!-- Főcím és bevezető szekció -->
     <div class="p-5 mb-4 bg-dark text-white rounded-3 border border-danger shadow">
         <div class="container-fluid py-3">
             <h1 class="display-5 fw-bold text-danger">F1 Racing Database</h1>
             <p class="col-md-10 fs-4">Üdvözöljük a hivatalos Formula–1 adatbázis és információs portálon! Fedezze fel a száguldó cirkusz történetét, pilótáit, nagydíjait és statisztikáit.</p>
-            <a class="btn btn-danger btn-lg mt-2" href="index.php?oldal=pilotak" role="button">Pilóták megtekintése</a>
+            <a class="btn btn-danger btn-lg mt-2" href="pilotak" role="button">Pilóták megtekintése</a>
         </div>
     </div>
 
     <div class="row align-items-md-stretch mb-4">
-        <!-- Kép szekció -->
         <div class="col-md-6 mb-4">
             <div class="h-100 p-5 bg-dark text-white rounded-3 border border-secondary shadow">
                 <h2>A Formula–1 világa</h2>
                 <p>Az oldalon áttekintheti a részletes statisztikákat, eredményeket és a pilóták adatait. Gyors és áttekinthető keresés a nagydíjak világában.</p>
-                <!-- EZ A RÉSZ MÓDOSULT: w-100 a teljes szélességhez, h-auto az arány megtartásához -->
                 <img src="./images/arc.jpg" class="w-100 h-auto rounded shadow-sm mt-3" alt="F1 bemutatkozó kép">
             </div>
         </div>
 
-        <!-- Helyi videó szekció (< 5 mp) -->
         <div class="col-md-6 mb-4">
             <div class="h-100 p-5 bg-dark text-white rounded-3 border border-secondary shadow">
                 <h2>Gyors pillanat (Helyi videó)</h2>
@@ -36,7 +32,6 @@
     </div>
 
     <div class="row">
-        <!-- YouTube videó -->
         <div class="col-md-6 mb-4">
             <div class="p-5 bg-dark text-white rounded-3 border border-secondary shadow h-100">
                 <h2>Hivatalos YouTube Videó</h2>
@@ -47,7 +42,6 @@
             </div>
         </div>
 
-        <!-- Google Térkép -->
         <div class="col-md-6 mb-4">
             <div class="p-5 bg-dark text-white rounded-3 border border-secondary shadow h-100">
                 <h2>Helyszín (Hungaroring)</h2>
